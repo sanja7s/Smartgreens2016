@@ -13,45 +13,45 @@ Warning--entry type for "Fang2013" isn't style-file defined
 --line 224 of file bib.bib
 Warning--there's a number but no series in Ciuciu2012
 Warning--there's a number but no series in Silva2012
-You've used 12 entries,
+You've used 17 entries,
             1935 wiz_defined-function locations,
-            539 strings with 5986 characters,
-and the built_in function-call counts, 4551 in all, are:
-= -- 431
-> -- 197
-< -- 9
-+ -- 70
-- -- 66
-* -- 347
-:= -- 791
-add.period$ -- 32
-call.type$ -- 12
-change.case$ -- 93
-chr.to.int$ -- 12
-cite$ -- 14
-duplicate$ -- 203
-empty$ -- 324
-format.name$ -- 78
-if$ -- 912
+            569 strings with 7263 characters,
+and the built_in function-call counts, 7051 in all, are:
+= -- 685
+> -- 307
+< -- 14
++ -- 110
+- -- 104
+* -- 541
+:= -- 1192
+add.period$ -- 49
+call.type$ -- 17
+change.case$ -- 137
+chr.to.int$ -- 17
+cite$ -- 19
+duplicate$ -- 311
+empty$ -- 487
+format.name$ -- 125
+if$ -- 1432
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 8
-newline$ -- 59
-num.names$ -- 36
-pop$ -- 111
+missing$ -- 13
+newline$ -- 84
+num.names$ -- 51
+pop$ -- 158
 preamble$ -- 1
-purify$ -- 93
+purify$ -- 137
 quote$ -- 0
-skip$ -- 136
+skip$ -- 227
 stack$ -- 0
-substring$ -- 228
-swap$ -- 33
-text.length$ -- 5
+substring$ -- 391
+swap$ -- 69
+text.length$ -- 8
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 72
+type$ -- 102
 warning$ -- 2
-while$ -- 31
+while$ -- 50
 width$ -- 0
-write$ -- 144
+write$ -- 210
 (There were 6 warnings)

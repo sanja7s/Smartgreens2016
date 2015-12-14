@@ -28,6 +28,18 @@ De~Haan, J., Nguyen, P., Kling, W., and Ribeiro, P. (2011).
 \newblock In {\em 2011 IEEE 1st International Workshop on Smart Grid Modeling
   and Simulation}, pages 79--83.
 
+\bibitem[Dillahunt and Mankoff, 2014]{dillahunt2014understanding}
+Dillahunt, T.~R. and Mankoff, J. (2014).
+\newblock Understanding factors of successful engagement around energy
+  consumption between and among households.
+\newblock In {\em Proceedings of the 17th ACM conference on Computer supported
+  cooperative work \& social computing}, pages 1246--1257. ACM.
+
+\bibitem[Edward and Jones, 2015]{edward2015review}
+Edward, V. and Jones, C.~M. (2015).
+\newblock A review of energy reduction competitions. what have we learned?
+\newblock {\em California Public Utilities Commission}.
+
 \bibitem[Erickson, 2012]{Erickson2012}
 Erickson, T. (2012).
 \newblock Making the smart grid social.
@@ -42,6 +54,20 @@ Lei, P., Ma, J., Jin, P., Lv, H., and Shen, L. (2012).
 \newblock Structural design of a universal and efficient demand-side management
   system for smart grid.
 \newblock In {\em IEEE Power Engineering and Automation Conference}.
+
+\bibitem[Petkov et~al., 2011]{petkov2011motivating}
+Petkov, P., K{\"o}bler, F., Foth, M., and Krcmar, H. (2011).
+\newblock Motivating domestic energy conservation through comparative,
+  community-based feedback in mobile and social media.
+\newblock In {\em Proceedings of the 5th International Conference on
+  Communities and Technologies}, pages 21--30. ACM.
+
+\bibitem[Schwartz et~al., 2014]{schwartz2014people}
+Schwartz, T., Stevens, G., Jakobi, T., Denef, S., Ramirez, L., Wulf, V., and
+  Randall, D. (2014).
+\newblock What people do with consumption feedback: A long-term living lab
+  study of a home energy management system.
+\newblock {\em Interacting with Computers}, page iwu009.
 
 \bibitem[Silva et~al., 2012]{Silva2012}
 Silva, P., Karnouskos, S., and Ilic, D. (2012).
@@ -62,6 +88,12 @@ Steinheimer, M., Trick, U., and Ruhrig, P. (2012).
   interconnected smart homes.
 \newblock In {\em Proceedings of the 2012 8th International Symposium on
   Communication Systems, Networks and Digital Signal Processing}.
+
+\bibitem[Weiss et~al., 2012]{weiss2012powerpedia}
+Weiss, M., Staake, T., Mattern, F., and Fleisch, E. (2012).
+\newblock Powerpedia: changing energy usage with the help of a community-based
+  smartphone application.
+\newblock {\em Personal and Ubiquitous Computing}, 16(6):655--664.
 
 \bibitem[Worm et~al., 2013]{Worm2013}
 Worm, D., Langley, D., and Becker, J. (2013).
