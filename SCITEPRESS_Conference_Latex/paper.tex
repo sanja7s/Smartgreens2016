@@ -83,62 +83,9 @@
 
 \onecolumn \maketitle \normalsize \vfill
 
-\section{\uppercase{Introduction}}
-\label{sec:introduction}
+\input{intro}
 
-\noindent 
-This paper presents the design of YouPower, a social smart grid platform that is designed as a means to explore the potential and challenges of supporting social participation, awareness and engagement of power gird users (\url{https://app.civisproject.eu}). The goal of developing such a system is to make energy visible, to inform users' energy know-how, to promote
-pro-environmental social norms, and to facilitate users in their day-to-day life to take energy-friendly actions together with online communities. 
-
-X The idea of linking smart grids with (online) \textit{Social Network}s (SNs) as a joint R\&D topic has recently caught
-much attention in media
-\cite{Boslet2010,Chima2011,Erickson2012,Fang2013}. There are many
-research efforts on either topics, but research on combining SNs with
-smart grids has just started. A number of recent works propose frameworks or
-approaches that interconnect smart meters (or smart homes) as SNs for
-energy management and sharing \cite{Ciuciu2012,Steinheimer2012}. In
-addition, Silva et. al.~\cite{Silva2012} conducted surveys to
-understand user needs for energy services including SN
-services. Several frameworks or simulation models for demand side
-management and value-added web services with SN aspects have been
-developed~\cite{Chatzidimitriou2013,De-Haan2011,Lei2012}. Others have
-used simulation models to demonstrate the feasibility of social
-coordination in supply and demand \cite{Skopik2014,Worm2013}.
-% 
-Our research interest expands on the related work in that it focuses
-on smart grid user communities. The research is performed within the
-framework of the EU FP7 CIVIS
-project (\url{www.civisproject.eu}).
-
-Project Context 
-
-
-\begin{figure*}[t!]
-\begin{center}\footnotesize
-	\includegraphics[width=.7\textwidth]{img/civis_platform_overview.pdf}\\
-	DSO (Distribution System Operators),  SSL (Secure Sockets Layer)
-	\caption{YouPower system overview}\label{fig:platform}
-\end{center}
-\end{figure*}
-
-\section{\uppercase{State of the Art}}
-
-\noindent X Considering the analytical frames and the CIVIS use cases, we chose a set of platform features and translated those into three self-contained and composable parts to be included in the CIVIS (front-end) application (hereinafter abbreviated as CIVIS app)\footnote{A shortened list of YouPower app mock-ups can be found at \url{http://civis.tbm.tudelft.nl/mockups/}.}: 
-%\begin{enumerate}
-%\item \nameref{sect:tips}
-%\item \nameref{sect:brf}
-%\item \nameref{sect:load_shifting}
-%\end{enumerate}
-
-
-
-With peer review results and users' feedback on the design, adaptations and changes are made to suit user needs and to achieve the CIVIS research goal. 
-In general, the application aims to enhance users' energy know-how through action suggestions that are implementable in everyday life, engage users in energy communities with understandable and actionable information and feedback, and facilitate community interaction and self-teaching by means of group discussions.
-%
-
-Given the time and resource constraints, the app can not be developed all-in-one cross-platform (for phones, tablets and computers). We chose to design the front-end as a mobile app. This means that the app design has layouts and user interactions that suit (small) phone screens. %The consideration is multi-fold. 
-Western Europe has a large mobile phone internet user base\footnote{
-Between 2013 and 2017, the penetration rate of mobile phone internet users among mobile phone users will rise from 49.0\% to 77.8\%. See more at:\url{ http://www.emarketer.com/Article/Nearly-Half-of-Western-Europeans-Will-Use-Mobile-Web-This-Year/1010510\#sthash.AaVfsqIU.dpuf}}. Many surveys show that mobile apps have advantages such as creating deeper user engagement, easy sharing, among others\footnote{\url{https://infomedia.com/blog/the-advantages-of-mobile-apps/}, \url{https://econsultancy.com/blog/62326-85-of-consumers-favour-apps-over-mobile-websites/}}. This makes mobile app a good choice given the goal of the CIVIS platform. Once developed, mobile apps can also be more easily transformed to web browser versions, while the reverse is more difficult. The back-end of the CIVIS platform will remain mostly the same independent of the front-end alternatives. 
+\input{relatedWork}
 
 \input{designConcept}
 

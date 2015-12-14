@@ -90,18 +90,16 @@ Some suggested that for those who do not have or are not comfortable with smart-
 
 This part of YouPower (see a screenshot in Figure~\ref{fig:brf}) is considered for households in the Stockholm test site. In Sweden, each apartment or house owner is a member of a housing cooperative that owns the property and annually elects a board that is in charge of the finances and maintenance of the property including making energy related decisions. 
 Such a housing ownership concept exists in a number of EU and non-EU countries.
-
+% 
 \begin{figure}[t!]
 \centering
 \shadowimage[width=.8\linewidth]{img/brf.pdf}
 \caption{Housing cooperatives part of YouPower}
 \label{fig:brf}
 \end{figure}
-
-
 % 
 Three main categories of features are designed for this part of YouPower: energy information about a user's own housing cooperative, energy information about other housing cooperatives, and support for communication between energy managers.
-Primary users are energy managers and board members of housing cooperatives. Secondary users are ordinary cooperative members. 
+Expected primary users are energy managers and board members of housing cooperatives. Secondary users are ordinary cooperative members. 
 
 Housing cooperative energy information includes comparative energy performance %(kWh /m$^{2}$)\footnote{We chose to use kWh in this case since cooperative managers have fairly good knowledge of energy units and the visualization is comparative.} 
 and the cooperative's monthly and yearly energy use, divided into heating (including hot water) and facilities electricity. Energy actions that have been taken are listed in relation with energy consumptions. 
@@ -119,27 +117,33 @@ The design was evaluated with three energy managers and the feedback was incorpo
 \label{sect:load_shifting}
 
 Three different levels of energy consumption data are displayed in the app: household, appliances and community. 
-At the household level, the current and historical consumptions are displayed. For users with production from renewable sources, which is the case for users from the two Trentino pilot sites where many have roof-installed PV panels, the app compares production and consumption levels with the aim to raise awareness of different prosumption patterns and to maximize self-consumption. 
+At the household level, the current and historical consumptions are displayed. For users with production from renewable sources -- many households from the two Trentino pilot sites have roof-installed PV panels -- the app compares production and consumption levels with the aim to raise awareness of different prosumption patterns and to maximize self-consumption. 
 % 
 For users with installed smart plugs, the app visualizes consumption patterns at the single appliance level. This is meant to enable users to gain a deeper understanding of the relationship between their daily actions and the resulting energy consumption. 
 %
-At the community level, aggregated data is displayed on the energy balance of a community. In Italy test sites, community refers to a whole electric consortium, while in Sweden the housing cooperative a user belongs to. 
-In particular, data on the aggregated monthly consumption and production levels is reported, together with monthly trends. The overall balance in the share of self-consumption is also reported. 
+At the community level, aggregated data is displayed on the energy balance of a community. In Italy test sites, a community refers to a whole energy consortium, while in Sweden the housing cooperative a user belongs to. 
+The aggregated monthly consumption and production levels are reported. The share of self-consumption is also reported. 
 %A single household's consumption level with is compared with the community average. This is meant to represent a powerful tool in helping users make sense of the actual consumption data, driving them towards the goal of a ``fair energy use''. At the same time, this can also be seen as a social mechanism, where community-level dynamics are used as a means to achieve a given goal, in this case increased energy efficiency at the single household level.
 
 \paragraph{Dynamic Time-of-Use Tariffing}
-In the Trento pilot site, the main focus is to leverage load elasticity for maximizing self-consumption of locally-installed Renewable Energy Sources (RESs). This means that electric loads shall be shifted to the time of high production. In order to achieve this, the lever identified has been that of price, actuated by means of a dynamic time-of-usage tariffing scheme. 
-A predictive engine has been designed and implemented to predict with a good accuracy the level of production from renewables in the subsequent 72 hours. The engine, which is based on a linear prediction model, uses weather forecast data (in particular: solar radiation data) from both public and private sources~\footnote{Data from Meteotrentino (\url{http://www.meteotrentino.it/}), OpenWeatherMap (\url{http://openweathermap.org/}), Fondazione Edmund Mach (\url{http://www.fmach.it/}) and US National Weather Service (\url{http://nomads.ncep.noaa.gov/}) is used in the predictor to build the feature vector.}, and historical data about the production of single renewable plants, provided by local stakeholders CEIS and CEDIS.
-Estimating also consumption patterns, based on historical data (again weighted based on environmental conditions for accounting for climate factors), a matching engine has been developed which forecasts whether there will be surplus of local production. In this case a favorable price is offered to users, as an incentive for them to move flexible loads (e.g., dishwater and washing machine) to those time intervals. At the same time, higher prices will be used to discourage usage of energy-intensive appliances when local production is low compared to consumption requests. In the app this takes the form of an indication of the foreseen price for the next 72 hours, divided into time intervals of three-hours duration each. The indication of the price for each time interval is accompanied by an icon, smiling if the price is below a given threshold (computed based on the historical price of energy in the previous two years) or presenting a sad expression otherwise. As the tariff is based on the estimated energy balance for the consumption as a whole, it is not personalised but it is the same for all local users.
+In the Trento pilot site, the main focus is to leverage load elasticity to maximize self-consumption of locally-installed Renewable Energy Sources (RESs). This means that electrical loads shall be shifted to the time of high production. In order to achieve this, the lever identified has been that of price, actuated by means of a dynamic time-of-usage tariffing scheme. 
+% 
+A predictive engine has been designed to predict the level of production from renewables in the subsequent 72 hours. The engine, which is based on a linear prediction model, uses weather forecast data (solar radiation data) from both public and private sources~ (Meteotrentino \url{http://www.meteotrentino.it}, OpenWeatherMap \url{http://openweathermap.org}, Fondazione Edmund Mach \url{http://www.fmach.it} and US National Weather Service \url{http://nomads.ncep.noaa.gov}) and historical data about the production of single renewable plants provided by local energy consortia.
+Estimating consumption patterns based on historical data, a matching engine is designed to forecast whether there will be surplus of local productions. If so, a favorable price is offered to users as an incentive for them to move flexible loads (e.g., dishwater and washing machine) to the perspective time intervals. A higher prices will be used to discourage the use of energy-intensive appliances when local production level is low.
+In the app, the energy price is forecasted for the next 72 hours, divided into three-hour intervals. Each interval has a constant price. 
+% The indication of the price for each time interval is accompanied by an icon, smiling if the price is below a given threshold (computed based on the historical price of energy in the previous two years) or presenting a sad expression otherwise. 
 
-\paragraph{Donation (Trento Test Site)}
-CIVIS users in the Trento test site can sign up for a donation programme, organized as a crowdfunding campaign. Subscription to the donation programme is optional. In case a user signs up, his/her contribution towards a better community energy balance brings about economic benefits for the electric consortia as well. In both Trento test sites, indeed, local generation from RESs exceeds, at the aggregated yearly level, consumption needs. Yet there is a timing mismatch, so that in order to serve consumption peaks the consortia have to buy (expensive) electricity on the national energy market. At the same time there are time periods during which production exceeds consumption, so that excess energy has to be sold, typically at a much lower price, on the market.
+\paragraph{Donation}
+A user's contribution towards a better community energy load balance can bring about economic benefits for the electric consortia. 
+In both Trento test sites, local generations from RESs exceed consumptions at the aggregated yearly level. Yet there is a timing mismatch so that in order to serve consumption peaks the consortia have to buy (expensive) electricity from the national energy market. At the same time, there are time periods during which production exceeds consumption so that excess energy has to be sold typically at a much lower price on the market.
+% 
+Thus, the local stakeholders foresee the potentials of donation programmes. 
+%The donation mechanism co-designed with the local stakeholder foresees that the economic benefit for the consortia will be partially monetized in order to contribute to a project with a social goal. 
+Users in the Trento test sites can optionally sign up for a donation programme organized as a crowdfunding campaign. 
+Each donation programme has a well-defined beneficiary. The app gives a description of the programme, information on the current status of the campaign, i.e., how much has been collected with respect to the goal, and plots the trend of donations.
 
-The donation mechanism co-designed with the local stakeholder foresees that such economic benefit for the consortia will be partially monetized in order to contribute to a project with a social goal. Each project has a well-defined beneficiary. For a given project the app visualizes, besides the name of the beneficiary and a short description of the project, information on the current status of the campaign, i.e., how much money has been collected with respect to the goal. Also, a plot displaying the trend of donations for that specific campaign since the beginning is plotted.
+%The donation mechanism, coupled with the dynamic ToU tariffing, is the key 'social' aspect foreseen for the Trento pilot site. It is based on the concept that the adoption of environmentally-friendly behaviors at the individual level can generate positive impacts at the social level ("social as a goal"). In this case impacts are on two different levels. First, in terms of reduced greenhouse gas emissions, as the local generation is totally based on RESs and hence carbon-neutral. Second, by contributing to the funding of a social project users can see a concrete, tangible effect of their action, fostering their motivation. 
 
-The donation mechanism, coupled with the dynamic ToU tariffing scheme, is the key 'social' aspect foreseen for the Trento pilot site. It is based on the concept that the adoption of environmentally-friendly behaviors at the individual level can generate positive impacts at the social level ("social as a goal"). In this case impacts are on two different levels. First, in terms of reduced greenhouse gas emissions, as the local generation is totally based on RESs and hence carbon-neutral. Second, by contributing to the funding of a social project users can see a concrete, tangible effect of their action, fostering their motivation. 
-
-The visualization of the donation programme status and trends requires such data to be made available through the WP4 platform.
 
 \paragraph{Design Evaluation}
 The design of the energy data visualization and comparison part has been validated incrementally with users in the Trentino site. Two focus groups and four workshops were conducted. During the focus group events, ideas about the possible functionalities were used as probes with the participants. During the workshops, practical activities were carried out with the participants in order to develop an idea of the most desirable features and then to receive evaluation feedback.
