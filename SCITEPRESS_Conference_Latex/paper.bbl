@@ -1,14 +1,74 @@
 \begin{thebibliography}{}
 
-\bibitem[Moore and Lopes, 1999]{Moore99}
-Moore, R. and Lopes, J. (1999).
-\newblock Paper templates.
-\newblock In {\em TEMPLATE'06, 1st International Conference on Template
-  Production}. SCITEPRESS.
+\bibitem[Boslet, 2010]{Boslet2010}
+Boslet, M. (2010).
+\newblock Linking smart meters and social networks.
 
-\bibitem[Smith, 1998]{Smith98}
-Smith, J. (1998).
-\newblock {\em The Book}.
-\newblock The publishing company, London, 2nd edition.
+\bibitem[Chatzidimitriou et~al., 2013]{Chatzidimitriou2013}
+Chatzidimitriou, K., Vavliakis, K., Symeonidis, A., and Mitkas, P. (2013).
+\newblock Redefining the market power of small-scale electricity consumers
+  through consumer social networks.
+\newblock In {\em Proceedings of 2013 IEEE 10th International Conference on
+  e-Business Engineering, ICEBE 2013}, pages 25--31.
+
+\bibitem[Chima, 2011]{Chima2011}
+Chima, C. (2011).
+\newblock How social media will make the smart energy grid more efficient.
+
+\bibitem[Ciuciu et~al., 2012]{Ciuciu2012}
+Ciuciu, I., Meersman, R., and Dillon, T. (2012).
+\newblock Social network of smart-metered homes and smes for grid-based
+  renewable energy exchange.
+\newblock In {\em IEEE International Conference on Digital Ecosystems and
+  Technologies}, number 6227922.
+
+\bibitem[De~Haan et~al., 2011]{De-Haan2011}
+De~Haan, J., Nguyen, P., Kling, W., and Ribeiro, P. (2011).
+\newblock Social interaction interface for performance analysis of smart grids.
+\newblock In {\em 2011 IEEE 1st International Workshop on Smart Grid Modeling
+  and Simulation}, pages 79--83.
+
+\bibitem[Erickson, 2012]{Erickson2012}
+Erickson, T. (2012).
+\newblock Making the smart grid social.
+
+\bibitem[Fang et~al., 2013]{Fang2013}
+Fang, X., Misra, S., Xue, G., and Yang, D. (2013).
+\newblock How smart devices, online social networks and the cloud will affect
+  the smart grid's evolution.
+
+\bibitem[Lei et~al., 2012]{Lei2012}
+Lei, P., Ma, J., Jin, P., Lv, H., and Shen, L. (2012).
+\newblock Structural design of a universal and efficient demand-side management
+  system for smart grid.
+\newblock In {\em IEEE Power Engineering and Automation Conference}.
+
+\bibitem[Silva et~al., 2012]{Silva2012}
+Silva, P., Karnouskos, S., and Ilic, D. (2012).
+\newblock A survey towards understanding residential prosumers in smart grid
+  neighbourhoods.
+\newblock In {\em 3rd IEEE PES Innovative Smart Grid Technologies Europe},
+  number 6465864.
+
+\bibitem[Skopik, 2014]{Skopik2014}
+Skopik, F. (2014).
+\newblock The social smart grid: Dealing with constrained energy resources
+  through social coordination.
+\newblock {\em Journal of Systems and Software}, 89(1):3--18.
+
+\bibitem[Steinheimer et~al., 2012]{Steinheimer2012}
+Steinheimer, M., Trick, U., and Ruhrig, P. (2012).
+\newblock Energy communities in smart markets for optimisation of peer-to-peer
+  interconnected smart homes.
+\newblock In {\em Proceedings of the 2012 8th International Symposium on
+  Communication Systems, Networks and Digital Signal Processing}.
+
+\bibitem[Worm et~al., 2013]{Worm2013}
+Worm, D., Langley, D., and Becker, J. (2013).
+\newblock Modeling interdependent socio-technical networks via abm smart grid
+  case.
+\newblock In {\em SIMULTECH 2013 - Proceedings of the 3rd International
+  Conference on Simulation and Modeling Methodologies, Technologies and
+  Applications}, pages 310--317.
 
 \end{thebibliography}
