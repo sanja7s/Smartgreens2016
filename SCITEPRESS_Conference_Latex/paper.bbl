@@ -1,5 +1,15 @@
 \begin{thebibliography}{}
 
+\bibitem[Allcott, 2011]{allcott2011social}
+Allcott, H. (2011).
+\newblock Social norms and energy conservation.
+\newblock {\em Journal of Public Economics}, 95(9):1082--1095.
+
+\bibitem[Bandura, 1997]{bandura1997self}
+Bandura, A. (1997).
+\newblock {\em Self-efficacy: The exercise of control}.
+\newblock Macmillan.
+
 \bibitem[Boslet, 2010]{Boslet2010}
 Boslet, M. (2010).
 \newblock Linking smart meters and social networks.
@@ -15,6 +25,11 @@ Chatzidimitriou, K., Vavliakis, K., Symeonidis, A., and Mitkas, P. (2013).
 Chima, C. (2011).
 \newblock How social media will make the smart energy grid more efficient.
 
+\bibitem[Cialdini, 2001]{cialdini2001harnessing}
+Cialdini, R.~B. (2001).
+\newblock Harnessing the science of persuasion.
+\newblock {\em Harvard Business Review}, 79(9):72--81.
+
 \bibitem[Ciuciu et~al., 2012]{Ciuciu2012}
 Ciuciu, I., Meersman, R., and Dillon, T. (2012).
 \newblock Social network of smart-metered homes and smes for grid-based
@@ -28,6 +43,18 @@ De~Haan, J., Nguyen, P., Kling, W., and Ribeiro, P. (2011).
 \newblock In {\em 2011 IEEE 1st International Workshop on Smart Grid Modeling
   and Simulation}, pages 79--83.
 
+\bibitem[Dillahunt and Mankoff, 2014]{dillahunt2014understanding}
+Dillahunt, T.~R. and Mankoff, J. (2014).
+\newblock Understanding factors of successful engagement around energy
+  consumption between and among households.
+\newblock In {\em Proceedings of the 17th ACM conference on Computer supported
+  cooperative work \& social computing}, pages 1246--1257. ACM.
+
+\bibitem[Edward and Jones, 2015]{edward2015review}
+Edward, V. and Jones, C.~M. (2015).
+\newblock A review of energy reduction competitions. what have we learned?
+\newblock {\em California Public Utilities Commission}.
+
 \bibitem[Erickson, 2012]{Erickson2012}
 Erickson, T. (2012).
 \newblock Making the smart grid social.
@@ -37,11 +64,44 @@ Fang, X., Misra, S., Xue, G., and Yang, D. (2013).
 \newblock How smart devices, online social networks and the cloud will affect
   the smart grid's evolution.
 
+\bibitem[F{\o}lstad, 2008]{folstad2008living}
+F{\o}lstad, A. (2008).
+\newblock Living labs for innovation and development of information and
+  communication technology: A literature review.
+\newblock {\em eJOV: The Electronic Journal for Virtual Organization \&
+  Networks}, 10.
+
+\bibitem[Klein, 2013]{klein2013ux}
+Klein, L. (2013).
+\newblock {\em UX for lean startups: Faster, smarter user experience research
+  and design}.
+\newblock " O'Reilly Media, Inc.".
+
+\bibitem[Leffingwell, 2010]{leffingwell2010agile}
+Leffingwell, D. (2010).
+\newblock {\em Agile software requirements: lean requirements practices for
+  teams, programs, and the enterprise}.
+\newblock Addison-Wesley Professional.
+
 \bibitem[Lei et~al., 2012]{Lei2012}
 Lei, P., Ma, J., Jin, P., Lv, H., and Shen, L. (2012).
 \newblock Structural design of a universal and efficient demand-side management
   system for smart grid.
 \newblock In {\em IEEE Power Engineering and Automation Conference}.
+
+\bibitem[Petkov et~al., 2011]{petkov2011motivating}
+Petkov, P., K{\"o}bler, F., Foth, M., and Krcmar, H. (2011).
+\newblock Motivating domestic energy conservation through comparative,
+  community-based feedback in mobile and social media.
+\newblock In {\em Proceedings of the 5th International Conference on
+  Communities and Technologies}, pages 21--30. ACM.
+
+\bibitem[Schwartz et~al., 2014]{schwartz2014people}
+Schwartz, T., Stevens, G., Jakobi, T., Denef, S., Ramirez, L., Wulf, V., and
+  Randall, D. (2014).
+\newblock What people do with consumption feedback: A long-term living lab
+  study of a home energy management system.
+\newblock {\em Interacting with Computers}, page iwu009.
 
 \bibitem[Silva et~al., 2012]{Silva2012}
 Silva, P., Karnouskos, S., and Ilic, D. (2012).
@@ -62,6 +122,18 @@ Steinheimer, M., Trick, U., and Ruhrig, P. (2012).
   interconnected smart homes.
 \newblock In {\em Proceedings of the 2012 8th International Symposium on
   Communication Systems, Networks and Digital Signal Processing}.
+
+\bibitem[Strengers, 2011]{strengers2011designing}
+Strengers, Y.~A. (2011).
+\newblock Designing eco-feedback systems for everyday life.
+\newblock In {\em Proceedings of the SIGCHI Conference on Human Factors in
+  Computing Systems}, pages 2135--2144. ACM.
+
+\bibitem[Weiss et~al., 2012]{weiss2012powerpedia}
+Weiss, M., Staake, T., Mattern, F., and Fleisch, E. (2012).
+\newblock Powerpedia: changing energy usage with the help of a community-based
+  smartphone application.
+\newblock {\em Personal and Ubiquitous Computing}, 16(6):655--664.
 
 \bibitem[Worm et~al., 2013]{Worm2013}
 Worm, D., Langley, D., and Becker, J. (2013).
