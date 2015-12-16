@@ -75,12 +75,6 @@ Edward, V. and Jones, C.~M. (2015).
 \newblock A review of energy reduction competitions. what have we learned?
 \newblock {\em California Public Utilities Commission}.
 
-\bibitem[Ek and S{\"o}derholm, 2010]{ek2010devil}
-Ek, K. and S{\"o}derholm, P. (2010).
-\newblock The devil is in the details: Household electricity saving behavior
-  and the role of information.
-\newblock {\em Energy Policy}, 38(3):1578--1587.
-
 \bibitem[Erickson, 2012]{Erickson2012}
 Erickson, T. (2012).
 \newblock Making the smart grid social.
@@ -101,6 +95,12 @@ F{\o}lstad, A. (2008).
 Gardner, G.~T. and Stern, P.~C. (1996).
 \newblock {\em Environmental problems and human behavior.}
 \newblock Allyn \& Bacon.
+
+\bibitem[Hargreaves et~al., 2013]{hargreaves2013keeping}
+Hargreaves, T., Nye, M., and Burgess, J. (2013).
+\newblock Keeping energy visible? exploring how householders interact with
+  feedback from smart energy monitors in the longer term.
+\newblock {\em Energy Policy}, 52:126--134.
 
 \bibitem[Hasselqvist et~al., 2015]{hasselqvist2015supporting}
 Hasselqvist, H., Bogdan, C., Romero, M., and Shafqat, O. (2015).
