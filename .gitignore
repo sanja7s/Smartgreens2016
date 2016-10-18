@@ -25,3 +25,5 @@
 */*.synctex.gz
 */*.spl
 */.DS_Store
+*.tiff
+*.plist
