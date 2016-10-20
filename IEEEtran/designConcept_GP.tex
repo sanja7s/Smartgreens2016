@@ -2,7 +2,7 @@
 \section{\uppercase{YouPower Overview}}
 \label{sect:overview}
 
-Figure~\ref{fig:platform} gives an overview of the CIVIS YouPower platform. 
+\noindent Figure~\ref{fig:platform} gives an overview of the CIVIS YouPower platform. 
 It is composed of (I) the \textit{energy sensor level services} mainly dealing with energy data collection; and (II) the \textit{energy data level and social level services} mainly dealing with energy data analytics as well as user, household and community management among others. 
 
 \begin{figure}[h!]
@@ -22,18 +22,16 @@ to the Trento test site); and (C) \textit{Action Suggestions} (contextualized an
 \section{\uppercase{Design Concept}}
 \label{sect:design_concept}
 
-Given time and resource constraints, the YouPower app can not be developed all-in-one cross-platform (for phones, tablets and computers). We chose to design the front-end as a hybrid mobile phone app, i.e. its UI design has layouts that suit phone screens, %The consideration is multi-fold. 
+\noindent Given time and resource constraints, the YouPower app can not be developed all-in-one cross-platform (for phones, tablets and computers). We chose to design the front-end as a hybrid mobile phone app, i.e. its UI design has layouts that suit phone screens, %The consideration is multi-fold. 
 %Western Europe has a large mobile phone internet user base\footnote{Between 2013 and 2017, the penetration rate of mobile phone internet users among mobile phone users will rise from 49.0\% to 77.8\%. See more at: \url{ http://www.emarketer.com/Article/Nearly-Half-of-Western-Europeans-Will-Use-Mobile-Web-This-Year/1010510\#sthash.AaVfsqIU.dpuf}}. Many surveys show that mobile apps have advantages such as creating deeper user engagement, easy sharing, among others\footnote{\url{https://infomedia.com/blog/the-advantages-of-mobile-apps/}, \url{https://econsultancy.com/blog/62326-85-of-consumers-favour-apps-over-mobile-websites/}}. This makes mobile app a good choice given the goal of the CIVIS platform. 
 since mobile apps can be more easily transformed to web browser versions, while the reverse is more difficult. The back-end of the YouPower platform will remain mostly the same independent of the front-end alternatives. 
 
 \subsection{Housing Cooperatives}
 \label{sect:brf}
 
-This part of the YouPower app is designed for the Stockholm test site that has sixteen housing cooperatives (\textit{Bostadsr{\"a}ttsf{\"o}rening} or \textit{Brf} in Swedish).
-Similar housing ownership and management models exist in a number of EU and non-EU countries, which allows potential wider application of the design.
-In Sweden, a housing cooperative annually elects a board which manages cooperative properties. 
-%
-The board decides on energy contracts, maintains energy systems, and proposes investments in energy efficient technologies. Since board members are volunteers who may have limited knowledge of energy or building management, this part of the app aims to support board members in energy management, in particular energy reduction actions. Cooperative members can also use the app to follow energy decisions and works of the cooperative. Additionally, the app can be of interest by building management companies working with housing cooperatives. 
+This part of the YouPower app is designed for the community of housing cooperatives (\textit{Bostadsr{\"a}ttsf{\"o}rening} or \textit{Brf} in Swedish) in the Stockholm test site \cite{Hasselqvist2016}.
+Similar housing ownership and management models exist in a number of EU and non-EU countries, which allow potential wider application of the design.
+A housing cooperative annually elects a board which manages cooperative properties and decides on energy contracts, maintains energy systems, and proposes investments in energy efficient technologies. Since board members are volunteers who may have limited knowledge of energy or building management, this part of the app aims to support board members in energy management, in particular energy reduction actions. Cooperative members can also use the app to follow energy decisions and works of the cooperative. Additionally, the app can be of interest by building management companies working with housing cooperatives. 
 The information presented in the app is visible for these user
 groups and shared between housing cooperatives. This openness of energy data is key to
 facilitating  users in sharing experiences relevant for taking energy reduction actions.
@@ -84,7 +82,7 @@ Users can compare a cooperative's energy use per month or per year to another co
 
 % The details about each energy action taken by a cooperative, together with the effects on the energy use, provides information that could support other cooperatives in learning more about which energy reduction actions are effective. 
 % In addition to the aforementioned information, 
-A cooperative interested in taking an action may wish to know more, e.g. which contractor was chosen for an investment and why or how to get buy-in from cooperative members. The design provides commenting functions for each action added, where users can post questions and exchange experiences. The cooperatives can also add email addresses of their contact persons, which are visible on the cooperatives app page.
+A cooperative interested in taking an action may wish to know more, e.g. which contractor was chosen for an investment and why or how to get buy-in from cooperative members. The design provides commenting functions for each action added, where users can post questions and exchange experiences. The cooperatives can also add email addresses of their contact persons, which are visible on each cooperative's app page.
 % 
 Sharing experiences certainly also happens outside of the digital world, e.g. during meetings of cooperative boards or with local energy networks. The app aims  to support discussions and knowledge exchange also in such situations, where someone can easily demonstrate the impact of an energy investment with smart phones.
 
@@ -185,7 +183,7 @@ With the aggregated energy data provided by the two local electricity consortia,
 \subsubsection{Dynamic ToU signals} 
 
 Dynamic ToU signals are provided to facilitate users' self-consumption of local PV productions.
-They give clear indications to encourage or discourage electricity consumption at a certain moment based on the forecasted local renewable production level calculated with weather forecast information (in particular solar radiation data) and the local rooftop PV production capacity. 
+They give clear indications to encourage or discourage electricity consumption at a certain moment based on the forecasted local renewable production level calculated with open weather forecast information (in particular solar radiation data) and the local rooftop PV production capacity. 
 The signals are at 3-hour intervals for the forthcoming 30 hours (Figure \ref{fig:tou} a), and are updated every 24 hours. A green smiley face signals a time slot suitable for self-consumption where the forecasted local PV production exceeds the current local consumption, while an orange frown face signals otherwise.  
 % 
 On a weekly basis, users get a summary of the proportion of their own household consumption that took place under green or orange ToU signals to allow them to reflect on their levels of self-consumption (Figure \ref{fig:tou} b). The same information is also provided at the consortia level to enable peer comparison. 
@@ -218,7 +216,7 @@ On a weekly basis, users get a summary of the proportion of their own household 
 \subsection{Action Suggestions}
 \label{sect:tips}
 
-This part of YouPower aims to %provide actionable suggestions to 
+This part of the YouPower app aims to %provide actionable suggestions to 
 facilitate all household members to take part in energy conservation in their busy daily life. 
 % 
 About fifty action suggestions are composed to provide users practical and accurate information about energy conservation. 
@@ -253,37 +251,14 @@ The design uses a number of elements to promote users' motivation and engagement
 The suggestions are tailored to the local context by local partners and focus groups. 
 Each action is accompanied by a short explanation, the entailed effort and impact (on a five-point scale) and the number of users taking this action. 
 The design encourages users to take small steps (and not to have too many actions at a time) and gives positive performance feedback. 
-In addition, users can invite household members, view and join the energy conservation actions of the whole household (Figure \ref{fig:invite}).
-Users can also login with Facebook, like, comment, share actions (Figure \ref{fig:share}), give feedback (Figure \ref{fig:form}) and invite friends. Users are awarded with points  (displayed as Green Leaves) once they complete an action, or provide feedback or comments. 
+In addition, users can invite household members  (Figure \ref{fig:invite}), view and join the energy conservation actions of the whole household (Figure \ref{fig:form} a).
+Users can also login with Facebook, like, comment, share actions (Figure \ref{fig:share}), give feedback (Figure \ref{fig:form} b c) and invite friends. Users are awarded with points  (displayed as Green Leaves) once they complete an action, or provide feedback or comments. 
 
 
 %\item A user can send friends Email invitations to join YouPower (Figure \ref{fig:invite}).
 
 
 \begin{figure}
-\centering
-\shadowimage[width=0.7\linewidth]{img/share}
-\caption{Facebook share of an action}
-\label{fig:share}
-\end{figure}
-
-\begin{figure}[t!]
-      \begin{center}
-        \begin{minipage}[t!]{0.33\linewidth}
-	       \shadowimage[width=1\linewidth]{img/action_not_completed.pdf}
-        \end{minipage}
-        \begin{minipage}[t!]{0.31\linewidth}
-        	       \shadowimage[width=1\linewidth]{img/action_completed.pdf}
-                \end{minipage}
-        %\hfill 
-        \begin{minipage}[t!]{0.33\linewidth}    
-         \shadowimage[width=1\linewidth]{img/house2.jpg}    
-        \end{minipage}
-      \end{center}
-      \caption{(a) Feedback form -- action abandoned; (b) Feedback form -- action completed; (c) Household actions}\label{fig:form}
-\end{figure}
-
-\begin{figure}[h!]
       \begin{center}
         \begin{minipage}[t!]{0.33\linewidth}
 	       \shadowimage[width=1\linewidth]{img/invite1.jpg}
@@ -295,6 +270,31 @@ Users can also login with Facebook, like, comment, share actions (Figure \ref{fi
       \end{center}
       \caption{(a) Invite household member; (b) Email invitation}\label{fig:invite}
 \end{figure}
+
+
+\begin{figure}
+      \begin{center}
+      \begin{minipage}[t!]{0.33\linewidth}    
+               \shadowimage[width=1\linewidth]{img/house2.jpg}    
+       \end{minipage}
+        \begin{minipage}[t!]{0.33\linewidth}
+	       \shadowimage[width=1\linewidth]{img/action_not_completed.pdf}
+        \end{minipage}
+        \begin{minipage}[t!]{0.31\linewidth}
+        	       \shadowimage[width=1\linewidth]{img/action_completed.pdf}
+                \end{minipage}
+        %\hfill 
+      \end{center}
+      \caption{(a) Household actions; (b) Feedback form -- action abandoned; (c) Feedback form -- action completed}\label{fig:form}
+\end{figure}
+
+\begin{figure}
+\centering
+\shadowimage[width=0.7\linewidth]{img/share}
+\caption{Facebook share of an action}
+\label{fig:share}
+\end{figure}
+
 
 %With an in-context email form (see e.g. Figure \ref{fig:invite}), a user can send an invitation to a friend asking to join YouPower. The benefits of joining and participating in YouPower are clearly articulated to the recipient in the email with a ``call to action'' button \citep{Crumlish2009}. A user can also send household member invitations and act upon them after receipt. By creating households and adding household members, users can have an overview of the household actions. Household energy conservation needs joint efforts, and household members can share the responsibility. The social features such as \textit{Like, Comment, Share, Invite} add social dynamics among users who can share and discuss their experiences and reflections with others. 
 
